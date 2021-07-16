@@ -1,0 +1,69 @@
+.abuelo {
+     border: 2px solid black; 
+    height: 800px; 
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: space-around;
+    /* acomoda los elementos en el eje y  */
+    align-items: center;
+}
+
+.padre {
+     border: 2px solid rgb(76, 0, 255);
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.padre_malo {
+    border: 2px solid rgb(76, 0, 255);
+   width: 40%;
+   height: 30%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+} 
+.hijo {
+    border: 2px solid rgb(200, 255, 0);
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hijo_malo {
+    border: 2px solid rgb(200, 255, 0);
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nieto_malo {
+    border: 2px solid red;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nieto_bueno {
+    border: 2px solid red;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

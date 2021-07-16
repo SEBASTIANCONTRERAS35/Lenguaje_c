@@ -1,0 +1,42 @@
+.navbad {
+    height: 300px;
+ border: 2px solid yellow;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+   text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+h3
+{
+    font-size: 15px;
+    text-align: center;
+}
+.my-container {
+   
+    height: 70vh;
+}
+
+.my-row {
+   
+    height: 30vh;
+}
+div.vertical-line{
+    width: 1px;
+    background-color: white; 
+  }
+  .nav-item
+  {
+     color:white;
+  }
+  .circulo{
+      border: yellow solid 2px;
+      height: 100px;
+      width: 100px;
+     display: flex;
+     align-items: center;
+      
+  }

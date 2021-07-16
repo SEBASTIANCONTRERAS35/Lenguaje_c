@@ -1,0 +1,44 @@
+/* * {
+    background-color: black;
+} */
+
+h1 {
+    /* border: 2px black solid; */
+     margin-left: 900px;
+    margin-right: 750px;
+    margin-top: 200px;
+    margin-bottom: 200px; 
+         /*  y      x */
+    /* margin: 100px 50px; */
+    /*      top  right bottom  left  */
+    /* margin: 50px 80px 20px    100px; */
+    /* margin: 50px; */
+    /* text-align: center; */
+}
+
+}
+
+a {
+    /* border: 2px blue solid; */
+
+  
+}
+.imagenes
+{
+    margin-right: 50px;
+}
+.Correo {
+    margin-left: 1000px;
+    margin-right: 5px;
+}
+.imgRedonda {
+    width:50px;
+    height:50px;
+    border-radius:150px;
+}
+button{
+    
+}
+div {
+    /* border: 2px solid black; */
+}

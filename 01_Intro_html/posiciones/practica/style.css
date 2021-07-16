@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cuadro1{
+    border: 3px solid;
+    width: 50vw ;
+    height: 40vh;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+.cuadro2{
+border: 3px solid;
+    width: 50vw ;
+    height: 40vh;
+    margin: 10px;
+    position: relative;
+    left: 500px;
+    top: 5px;
+    background-color: brown;
+  
+}
+.cuadro3
+{border: 3px solid;
+    width: 50vw ;
+    height: 40vh;
+    margin: 10px;
+    position: absolute;
+    top: 500px;
+    background-color: purple;
+    z-index: 2;
+}
+.cuadro4 
+{
+    border: 3px solid;
+    width: 50vw ;
+    height: 400vh;
+    margin: 10px;
+    position: absolute;
+    left: 1000px;
+    top: 10;
+    background-color: yellow;
+}

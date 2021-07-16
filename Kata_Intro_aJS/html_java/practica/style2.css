@@ -1,0 +1,15 @@
+
+.table{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.form{
+    display:flex;
+   flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

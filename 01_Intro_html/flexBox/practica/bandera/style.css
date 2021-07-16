@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin:0;
+    padding: 0;
+
+}
+.padre {
+    /* border: 2px solid; */ 
+    height: 100%;
+    width: 100%;
+    background-color: rgba(6, 6, 179, 0.885);
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: space-between;
+    /* acomoda los elementos en el eje y  */
+    align-items: flex-start;
+}
+
+.hijo {
+    border: 2px solid black;
+    background-color: white; 
+    height: 90%;
+    width: 30%;
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: start;
+    /* acomoda los elementos en el eje y  */
+    align-items: baseline;
+}
+.hijo_malo {
+    border: 2px solid black;
+    background-color: white; 
+    height: 90%;
+    width: 60%;
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: flex-end;
+    /* acomoda los elementos en el eje y  */
+    align-items: baseline;
+}
+.nieto {
+    border: 2px solid black;
+    background-color: red; 
+    height: 90%;
+    width: 90%;
+}
+.nieto_malo {
+    border: 2px solid black;
+    background-color: red; 
+    height: 90%;
+    width: 95%;
+}
+
+.madre {
+    /* border: 2px solid; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(6, 6, 179, 0.885);
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: space-between;
+    /* acomoda los elementos en el eje y  */
+    align-items: flex-end;
+}
+
+.hija{
+    background-color: white; 
+    height: 90%;
+    width: 30%;
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: start;
+    /* acomoda los elementos en el eje y  */
+    align-items: flex-end;
+}
+.hija_mala {
+    background-color: white; 
+    height: 90%;
+    width: 60%;
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction: row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: flex-end;
+    /* acomoda los elementos en el eje y  */
+    align-items: flex-end;
+}
+.nieta {
+    border: 2px solid black;
+    background-color: red; 
+    height: 90%;
+    width: 90%;
+} 
+.nieta_mala {
+    border: 2px solid black;
+    background-color: red; 
+    height: 90%;
+    width: 95%;
+}
